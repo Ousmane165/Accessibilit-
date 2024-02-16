@@ -1,0 +1,141 @@
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style du logo */
+.logo {
+    max-width: 100px;
+}
+
+/* Style du bouton de connexion */
+.login-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Style du contenu principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre de l'article */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style de l'image de l'article */
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style du texte de l'article */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style des commentaires */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+a {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+th:first-child, td:first-child {
+    width: 25%;
+}
+th:last-child, td:last-child {
+    width: 15%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
