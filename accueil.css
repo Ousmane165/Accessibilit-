@@ -1,4 +1,3 @@
-/* Réinitialisation des marges et des rembourrages */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +5,6 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Style de l'en-tête */
 header {
     background-color: #ffffff;
     padding: 20px;
@@ -53,26 +51,23 @@ article {
 }
 
 /* Style du titre de l'article */
-.article h3 {
+.article h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-/* Style du paragraphe de l'article */
 .article p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 
-/* Style du lien de l'article */
 .article a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Style du lien de l'article au survol */
 .article a:hover {
     text-decoration: underline;
 }

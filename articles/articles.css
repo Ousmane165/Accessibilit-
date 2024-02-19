@@ -1,17 +1,16 @@
-/* Réinitialisation des marges et des rembourrages */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Style du corps */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
-/* Style de l'en-tête */
+
 header {
     background-color: #333;
     color: #fff;
@@ -22,12 +21,12 @@ header {
     align-items: center;
 }
 
-/* Style du logo */
+
 .logo {
     max-width: 100px;
 }
 
-/* Style du bouton de connexion */
+
 .login-button {
     background-color: black;
     color: #fff;
@@ -36,7 +35,6 @@ header {
     text-decoration: none;
 }
 
-/* Style du contenu principal */
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -46,13 +44,11 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style du titre de l'article */
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-/* Style de l'image de l'article */
 img {
     max-width: 50%;
     height: auto;
@@ -60,14 +56,12 @@ img {
     margin-bottom: 20px;
 }
 
-/* Style du texte de l'article */
 p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
-/* Style des commentaires */
 h2 {
     font-size: 20px;
     margin-bottom: 10px;
